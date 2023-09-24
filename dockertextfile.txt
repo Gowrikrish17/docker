@@ -1,3 +1,4 @@
+docker pull httpd
 docker ps
 docker run -dit containerid 
 docker ps | grep containerid
