@@ -1,0 +1,11 @@
+docker ps
+docker run -dit containerid 
+docker ps | grep containerid
+docker ps -a
+docker exec -it containerid /bin/bash
+docker ps
+docker run --name httpd -d -p 8084:80 httpd
+docker volumes ls
+docker push gowrikrish18/repo1:tagname
+vi Dockerfile
+docker build . -t nginx buil1.0
